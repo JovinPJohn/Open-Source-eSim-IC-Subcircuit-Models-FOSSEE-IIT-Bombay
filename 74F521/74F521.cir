@@ -1,0 +1,89 @@
+.title KiCad schematic
+U54 Net-_U39-Pad2_ Net-_U40-Pad2_ Net-_U54-Pad3_ d_xnor
+U40 Net-_U23-Pad2_ Net-_U40-Pad2_ d_inverter
+U52 Net-_U35-Pad2_ Net-_U36-Pad2_ Net-_U52-Pad3_ d_xnor
+U61 Net-_U54-Pad3_ Net-_U55-Pad3_ Net-_U61-Pad3_ d_and
+U64 Net-_U60-Pad3_ Net-_U61-Pad3_ Net-_U64-Pad3_ d_and
+U66 Net-_U64-Pad3_ Net-_U65-Pad3_ Net-_U66-Pad3_ d_and
+U60 Net-_U52-Pad3_ Net-_U53-Pad3_ Net-_U60-Pad3_ d_and
+U53 Net-_U37-Pad2_ Net-_U38-Pad2_ Net-_U53-Pad3_ d_xnor
+U68 Net-_U67-Pad3_ Net-_U68-Pad2_ d_inverter
+U67 Net-_U66-Pad3_ Net-_U51-Pad2_ Net-_U67-Pad3_ d_and
+U70 19_Obar plot_v1
+U69 Net-_U68-Pad2_ 19_Obar dac_bridge_1
+U41 Net-_U24-Pad2_ Net-_U41-Pad2_ d_inverter
+U55 Net-_U41-Pad2_ Net-_U42-Pad2_ Net-_U55-Pad3_ d_xnor
+U42 Net-_U25-Pad2_ Net-_U42-Pad2_ d_inverter
+U43 Net-_U26-Pad2_ Net-_U43-Pad2_ d_inverter
+U44 Net-_U27-Pad2_ Net-_U44-Pad2_ d_inverter
+U56 Net-_U43-Pad2_ Net-_U44-Pad2_ Net-_U56-Pad3_ d_xnor
+U59 Net-_U49-Pad2_ Net-_U50-Pad2_ Net-_U59-Pad3_ d_xnor
+U58 Net-_U47-Pad2_ Net-_U48-Pad2_ Net-_U58-Pad3_ d_xnor
+U51 Net-_U34-Pad2_ Net-_U51-Pad2_ d_buffer
+U65 Net-_U62-Pad3_ Net-_U63-Pad3_ Net-_U65-Pad3_ d_and
+U62 Net-_U56-Pad3_ Net-_U57-Pad3_ Net-_U62-Pad3_ d_and
+U63 Net-_U58-Pad3_ Net-_U59-Pad3_ Net-_U63-Pad3_ d_and
+U57 Net-_U45-Pad2_ Net-_U46-Pad2_ Net-_U57-Pad3_ d_xnor
+U45 Net-_U28-Pad2_ Net-_U45-Pad2_ d_inverter
+U46 Net-_U29-Pad2_ Net-_U46-Pad2_ d_inverter
+v15 17_A7 GND pulse
+v16 18_B7 GND pulse
+v14 16_B6 GND pulse
+v13 15_A6 GND pulse
+U34 1_Ibar Net-_U34-Pad2_ adc_bridge_1
+U33 18_B7 Net-_U33-Pad2_ adc_bridge_1
+U16 18_B7 plot_v1
+U50 Net-_U33-Pad2_ Net-_U50-Pad2_ d_inverter
+U15 17_A7 plot_v1
+U32 17_A7 Net-_U32-Pad2_ adc_bridge_1
+U49 Net-_U32-Pad2_ Net-_U49-Pad2_ d_inverter
+U48 Net-_U31-Pad2_ Net-_U48-Pad2_ d_inverter
+U31 16_B6 Net-_U31-Pad2_ adc_bridge_1
+U14 16_B6 plot_v1
+U13 15_A6 plot_v1
+U47 Net-_U30-Pad2_ Net-_U47-Pad2_ d_inverter
+U30 15_A6 Net-_U30-Pad2_ adc_bridge_1
+U17 1_Ibar plot_v1
+v17 1_Ibar GND pulse
+U37 Net-_U20-Pad2_ Net-_U37-Pad2_ d_inverter
+U3 4_A1 plot_v1
+U20 4_A1 Net-_U20-Pad2_ adc_bridge_1
+v5 6_A2 GND pulse
+v4 5_B1 GND pulse
+U36 Net-_U19-Pad2_ Net-_U36-Pad2_ d_inverter
+U1 2_A0 plot_v1
+U18 2_A0 Net-_U18-Pad2_ adc_bridge_1
+U19 3_B0 Net-_U19-Pad2_ adc_bridge_1
+U2 3_B0 plot_v1
+U35 Net-_U18-Pad2_ Net-_U35-Pad2_ d_inverter
+v2 3_B0 GND pulse
+v1 2_A0 GND pulse
+v3 4_A1 GND pulse
+U22 6_A2 Net-_U22-Pad2_ adc_bridge_1
+U4 5_B1 plot_v1
+U38 Net-_U21-Pad2_ Net-_U38-Pad2_ d_inverter
+U39 Net-_U22-Pad2_ Net-_U39-Pad2_ d_inverter
+U21 5_B1 Net-_U21-Pad2_ adc_bridge_1
+U5 6_A2 plot_v1
+U29 14_B5 Net-_U29-Pad2_ adc_bridge_1
+U12 14_B5 plot_v1
+U11 13_A5 plot_v1
+U28 13_A5 Net-_U28-Pad2_ adc_bridge_1
+v12 14_B5 GND pulse
+v11 13_A5 GND pulse
+v8 9_B3 GND pulse
+v9 11_A4 GND pulse
+v10 12_B4 GND pulse
+U25 9_B3 Net-_U25-Pad2_ adc_bridge_1
+U8 9_B3 plot_v1
+U26 11_A4 Net-_U26-Pad2_ adc_bridge_1
+U27 12_B4 Net-_U27-Pad2_ adc_bridge_1
+U9 11_A4 plot_v1
+U10 12_B4 plot_v1
+v7 8_A3 GND pulse
+v6 7_B2 GND pulse
+U7 8_A3 plot_v1
+U23 7_B2 Net-_U23-Pad2_ adc_bridge_1
+U6 7_B2 plot_v1
+U24 8_A3 Net-_U24-Pad2_ adc_bridge_1
+.end

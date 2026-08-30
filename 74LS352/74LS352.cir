@@ -1,0 +1,64 @@
+.title KiCad schematic
+U6 2/B plot_v1
+U25 Net-_U18-Pad2_ Net-_U25-Pad2_ d_inverter
+U18 2/B Net-_U18-Pad2_ adc_bridge_1
+U69 Net-_U25-Pad2_ Net-_U29-Pad1_ d_inverter
+U14 6/1C0 Net-_U14-Pad2_ adc_bridge_1
+U1 1/1GBAR plot_v1
+U2 6/1C0 plot_v1
+v4 4/1C2 GND pulse
+v3 5/1C1 GND pulse
+v5 3/1C3 GND pulse
+v6 2/B GND pulse
+U5 3/1C3 plot_v1
+U3 5/1C1 plot_v1
+U16 4/1C2 Net-_U16-Pad2_ adc_bridge_1
+U4 4/1C2 plot_v1
+U17 3/1C3 Net-_U17-Pad2_ adc_bridge_1
+U15 5/1C1 Net-_U15-Pad2_ adc_bridge_1
+v2 6/1C0 GND pulse
+v1 1/1GBAR GND pulse
+U67 Net-_U13-Pad2_ Net-_U27-Pad1_ d_inverter
+U13 1/1GBAR Net-_U13-Pad2_ adc_bridge_1
+U27 Net-_U27-Pad1_ Net-_U27-Pad2_ d_buffer
+U29 Net-_U29-Pad1_ Net-_U29-Pad2_ d_buffer
+U30 Net-_U30-Pad1_ Net-_U30-Pad2_ d_buffer
+U70 Net-_X1-Pad2_ Net-_U30-Pad1_ d_inverter
+U22 12/2C2 Net-_U22-Pad2_ adc_bridge_1
+U10 12/2C2 plot_v1
+U9 11/2C1 plot_v1
+U21 11/2C1 Net-_U21-Pad2_ adc_bridge_1
+v11 13/2C3 GND pulse
+v12 15/2GBAR GND pulse
+U11 13/2C3 plot_v1
+U24 15/2GBAR Net-_U24-Pad2_ adc_bridge_1
+U23 13/2C3 Net-_U23-Pad2_ adc_bridge_1
+U68 Net-_U24-Pad2_ Net-_U28-Pad1_ d_inverter
+U12 15/2GBAR plot_v1
+v10 12/2C2 GND pulse
+v9 11/2C1 GND pulse
+v7 14/A GND pulse
+v8 10/2C0 GND pulse
+U20 10/2C0 Net-_U20-Pad2_ adc_bridge_1
+U19 14/A Net-_U19-Pad2_ adc_bridge_1
+U8 10/2C0 plot_v1
+U7 14/A plot_v1
+U26 Net-_U19-Pad2_ Net-_X1-Pad2_ d_inverter
+X7 Net-_X1-Pad2_ Net-_U29-Pad2_ Net-_U16-Pad2_ Net-_U27-Pad2_ Net-_X7-Pad5_ 4_and
+X3 Net-_U29-Pad2_ Net-_U30-Pad2_ Net-_U17-Pad2_ Net-_U27-Pad2_ Net-_X3-Pad5_ 4_and
+X2 Net-_U25-Pad2_ Net-_U30-Pad2_ Net-_U15-Pad2_ Net-_U27-Pad2_ Net-_X2-Pad5_ 4_and
+X1 Net-_U25-Pad2_ Net-_X1-Pad2_ Net-_U14-Pad2_ Net-_U27-Pad2_ Net-_X1-Pad5_ 4_and
+X9 Net-_X1-Pad5_ Net-_X2-Pad5_ Net-_X7-Pad5_ Net-_X3-Pad5_ Net-_U62-Pad1_ 4_OR
+X4 Net-_U25-Pad2_ Net-_X1-Pad2_ Net-_U20-Pad2_ Net-_U28-Pad2_ Net-_X10-Pad1_ 4_and
+X5 Net-_U25-Pad2_ Net-_U30-Pad2_ Net-_U21-Pad2_ Net-_U28-Pad2_ Net-_X10-Pad2_ 4_and
+U33 9/2Y plot_v1
+U32 Net-_U31-Pad2_ 9/2Y dac_bridge_1
+U31 Net-_U31-Pad1_ Net-_U31-Pad2_ d_inverter
+X10 Net-_X10-Pad1_ Net-_X10-Pad2_ Net-_X10-Pad3_ Net-_X10-Pad4_ Net-_U31-Pad1_ 4_OR
+X8 Net-_X1-Pad2_ Net-_U29-Pad2_ Net-_U22-Pad2_ Net-_U28-Pad2_ Net-_X10-Pad3_ 4_and
+X6 Net-_U30-Pad2_ Net-_U29-Pad2_ Net-_U23-Pad2_ Net-_U28-Pad2_ Net-_X10-Pad4_ 4_and
+U62 Net-_U62-Pad1_ Net-_U62-Pad2_ d_inverter
+U64 Net-_U62-Pad2_ 7/1Y dac_bridge_1
+U66 7/1Y plot_v1
+U28 Net-_U28-Pad1_ Net-_U28-Pad2_ d_buffer
+.end

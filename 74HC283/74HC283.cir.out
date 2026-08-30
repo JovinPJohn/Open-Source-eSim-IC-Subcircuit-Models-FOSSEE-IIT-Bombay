@@ -1,0 +1,288 @@
+.title kicad schematic
+
+* u13 2/b2 plot_v1
+v5 2/b2 gnd pulse(0 5 0 10n 10n 2m 4m)
+v4 3/a2 gnd pulse(0 5 0 10n 10n 2m 4m)
+v8 12/a4 gnd pulse(0 5 0 10n 10n 8m 16m)
+* u24 12/a4 plot_v1
+* u7 3/a2 net-_u7-pad2_ adc_bridge_1
+* u11 2/b2 net-_u11-pad2_ adc_bridge_1
+* u16 net-_u14-pad2_ net-_u16-pad2_ d_buffer
+* u14 14/a3 net-_u14-pad2_ adc_bridge_1
+* u8 net-_u7-pad2_ net-_u30-pad1_ d_buffer
+* u12 net-_u11-pad2_ net-_u12-pad2_ d_buffer
+* u22 12/a4 net-_u22-pad2_ adc_bridge_1
+* u26 net-_u25-pad2_ net-_u26-pad2_ d_buffer
+* u20 net-_u19-pad2_ net-_u20-pad2_ d_buffer
+* u23 net-_u22-pad2_ net-_u23-pad2_ d_buffer
+* u25 11/b4 net-_u25-pad2_ adc_bridge_1
+* u19 15/b3 net-_u19-pad2_ adc_bridge_1
+v9 11/b4 gnd pulse(0 5 0 10n 10n 8m 16m)
+* u27 11/b4 plot_v1
+v6 14/a3 gnd pulse(0 5 0 10n 10n 4m 8m)
+* u17 14/a3 plot_v1
+* u21 15/b3 plot_v1
+v7 15/b3 gnd pulse(0 5 0 10n 10n 4m 8m)
+* u18 6/b1 plot_v1
+* u9 5/a1 plot_v1
+* u6 5/a1 net-_u6-pad2_ adc_bridge_1
+* u3 net-_u6-pad2_ net-_u28-pad1_ d_buffer
+* u2 net-_u1-pad2_ net-_u2-pad2_ d_buffer
+* u4 net-_u15-pad2_ net-_u28-pad2_ d_buffer
+* u1 7/cin net-_u1-pad2_ adc_bridge_1
+* u15 6/b1 net-_u15-pad2_ adc_bridge_1
+v2 5/a1 gnd pulse(0 5 0 10n 10n 1m 2m)
+* u5 7/cin plot_v1
+v1 7/cin gnd pulse(0 5 0 10n 10n 1m 2m)
+* u10 3/a2 plot_v1
+v3 6/b1 gnd pulse(0 5 0 10n 10n 1m 2m)
+* u28 net-_u28-pad1_ net-_u28-pad2_ net-_u28-pad3_ d_and
+* u31 net-_u30-pad1_ net-_u12-pad2_ net-_u31-pad3_ d_xor
+* u29 net-_u28-pad1_ net-_u28-pad2_ net-_u29-pad3_ d_xor
+* u30 net-_u30-pad1_ net-_u12-pad2_ net-_u30-pad3_ d_and
+* u32 net-_u16-pad2_ net-_u20-pad2_ net-_u32-pad3_ d_and
+* u34 net-_u23-pad2_ net-_u26-pad2_ net-_u34-pad3_ d_and
+* u33 net-_u16-pad2_ net-_u20-pad2_ net-_u33-pad3_ d_xor
+* u35 net-_u23-pad2_ net-_u26-pad2_ net-_u35-pad3_ d_xor
+* u37 net-_u28-pad3_ net-_u31-pad3_ net-_u37-pad3_ d_and
+* u36 net-_u29-pad3_ net-_u2-pad2_ net-_u36-pad3_ d_and
+* u38 net-_u28-pad3_ net-_u36-pad3_ net-_u38-pad3_ d_or
+* u67 net-_u65-pad3_ net-_u67-pad2_ d_buffer
+* u68 net-_u66-pad3_ net-_u35-pad3_ net-_u68-pad3_ d_or
+* u73 net-_u72-pad2_ 9/cout dac_bridge_1
+* u70 net-_u68-pad3_ net-_u56-pad3_ net-_u70-pad3_ d_or
+* u69 net-_u67-pad2_ 10/s4 dac_bridge_1
+* u72 net-_u70-pad3_ net-_u72-pad2_ d_buffer
+* u71 10/s4 plot_v1
+* u74 9/cout plot_v1
+* u54 net-_u32-pad3_ net-_u35-pad3_ net-_u54-pad3_ d_and
+* u60 net-_u48-pad3_ net-_u35-pad3_ net-_u60-pad3_ d_and
+* u56 net-_u54-pad3_ net-_u34-pad3_ net-_u56-pad3_ d_or
+* u66 net-_u63-pad3_ net-_u60-pad3_ net-_u66-pad3_ d_or
+* u63 net-_u59-pad3_ net-_u35-pad3_ net-_u63-pad3_ d_and
+* u59 net-_u37-pad3_ net-_u33-pad3_ net-_u59-pad3_ d_and
+* u64 13/s3 plot_v1
+* u61 net-_u57-pad2_ 13/s3 dac_bridge_1
+* u57 net-_u55-pad3_ net-_u57-pad2_ d_buffer
+* u58 net-_u53-pad3_ net-_u52-pad3_ net-_u58-pad3_ d_or
+* u65 net-_u62-pad3_ net-_u35-pad3_ net-_u65-pad3_ d_xor
+* u62 net-_u58-pad3_ net-_u59-pad3_ net-_u62-pad3_ d_or
+* u53 net-_u32-pad3_ net-_u48-pad3_ net-_u53-pad3_ d_or
+* u52 net-_u30-pad3_ net-_u33-pad3_ net-_u52-pad3_ d_and
+* u48 net-_u45-pad3_ net-_u33-pad3_ net-_u48-pad3_ d_and
+* u55 net-_u50-pad3_ net-_u33-pad3_ net-_u55-pad3_ d_xor
+* u39 net-_u29-pad3_ net-_u2-pad2_ net-_u39-pad3_ d_xor
+* u40 net-_u29-pad3_ net-_u31-pad3_ net-_u40-pad3_ d_and
+* u43 net-_u39-pad3_ net-_u43-pad2_ d_buffer
+* u41 net-_u31-pad3_ net-_u38-pad3_ net-_u41-pad3_ d_xor
+* u42 net-_u30-pad3_ net-_u37-pad3_ net-_u42-pad3_ d_or
+* u50 net-_u45-pad3_ net-_u42-pad3_ net-_u50-pad3_ d_or
+* u49 net-_u44-pad2_ 1/s2 dac_bridge_1
+* u51 1/s2 plot_v1
+* u46 net-_u43-pad2_ 4/s1 dac_bridge_1
+* u44 net-_u41-pad3_ net-_u44-pad2_ d_buffer
+* u47 4/s1 plot_v1
+* u45 net-_u40-pad3_ net-_u2-pad2_ net-_u45-pad3_ d_and
+a1 [3/a2 ] [net-_u7-pad2_ ] u7
+a2 [2/b2 ] [net-_u11-pad2_ ] u11
+a3 net-_u14-pad2_ net-_u16-pad2_ u16
+a4 [14/a3 ] [net-_u14-pad2_ ] u14
+a5 net-_u7-pad2_ net-_u30-pad1_ u8
+a6 net-_u11-pad2_ net-_u12-pad2_ u12
+a7 [12/a4 ] [net-_u22-pad2_ ] u22
+a8 net-_u25-pad2_ net-_u26-pad2_ u26
+a9 net-_u19-pad2_ net-_u20-pad2_ u20
+a10 net-_u22-pad2_ net-_u23-pad2_ u23
+a11 [11/b4 ] [net-_u25-pad2_ ] u25
+a12 [15/b3 ] [net-_u19-pad2_ ] u19
+a13 [5/a1 ] [net-_u6-pad2_ ] u6
+a14 net-_u6-pad2_ net-_u28-pad1_ u3
+a15 net-_u1-pad2_ net-_u2-pad2_ u2
+a16 net-_u15-pad2_ net-_u28-pad2_ u4
+a17 [7/cin ] [net-_u1-pad2_ ] u1
+a18 [6/b1 ] [net-_u15-pad2_ ] u15
+a19 [net-_u28-pad1_ net-_u28-pad2_ ] net-_u28-pad3_ u28
+a20 [net-_u30-pad1_ net-_u12-pad2_ ] net-_u31-pad3_ u31
+a21 [net-_u28-pad1_ net-_u28-pad2_ ] net-_u29-pad3_ u29
+a22 [net-_u30-pad1_ net-_u12-pad2_ ] net-_u30-pad3_ u30
+a23 [net-_u16-pad2_ net-_u20-pad2_ ] net-_u32-pad3_ u32
+a24 [net-_u23-pad2_ net-_u26-pad2_ ] net-_u34-pad3_ u34
+a25 [net-_u16-pad2_ net-_u20-pad2_ ] net-_u33-pad3_ u33
+a26 [net-_u23-pad2_ net-_u26-pad2_ ] net-_u35-pad3_ u35
+a27 [net-_u28-pad3_ net-_u31-pad3_ ] net-_u37-pad3_ u37
+a28 [net-_u29-pad3_ net-_u2-pad2_ ] net-_u36-pad3_ u36
+a29 [net-_u28-pad3_ net-_u36-pad3_ ] net-_u38-pad3_ u38
+a30 net-_u65-pad3_ net-_u67-pad2_ u67
+a31 [net-_u66-pad3_ net-_u35-pad3_ ] net-_u68-pad3_ u68
+a32 [net-_u72-pad2_ ] [9/cout ] u73
+a33 [net-_u68-pad3_ net-_u56-pad3_ ] net-_u70-pad3_ u70
+a34 [net-_u67-pad2_ ] [10/s4 ] u69
+a35 net-_u70-pad3_ net-_u72-pad2_ u72
+a36 [net-_u32-pad3_ net-_u35-pad3_ ] net-_u54-pad3_ u54
+a37 [net-_u48-pad3_ net-_u35-pad3_ ] net-_u60-pad3_ u60
+a38 [net-_u54-pad3_ net-_u34-pad3_ ] net-_u56-pad3_ u56
+a39 [net-_u63-pad3_ net-_u60-pad3_ ] net-_u66-pad3_ u66
+a40 [net-_u59-pad3_ net-_u35-pad3_ ] net-_u63-pad3_ u63
+a41 [net-_u37-pad3_ net-_u33-pad3_ ] net-_u59-pad3_ u59
+a42 [net-_u57-pad2_ ] [13/s3 ] u61
+a43 net-_u55-pad3_ net-_u57-pad2_ u57
+a44 [net-_u53-pad3_ net-_u52-pad3_ ] net-_u58-pad3_ u58
+a45 [net-_u62-pad3_ net-_u35-pad3_ ] net-_u65-pad3_ u65
+a46 [net-_u58-pad3_ net-_u59-pad3_ ] net-_u62-pad3_ u62
+a47 [net-_u32-pad3_ net-_u48-pad3_ ] net-_u53-pad3_ u53
+a48 [net-_u30-pad3_ net-_u33-pad3_ ] net-_u52-pad3_ u52
+a49 [net-_u45-pad3_ net-_u33-pad3_ ] net-_u48-pad3_ u48
+a50 [net-_u50-pad3_ net-_u33-pad3_ ] net-_u55-pad3_ u55
+a51 [net-_u29-pad3_ net-_u2-pad2_ ] net-_u39-pad3_ u39
+a52 [net-_u29-pad3_ net-_u31-pad3_ ] net-_u40-pad3_ u40
+a53 net-_u39-pad3_ net-_u43-pad2_ u43
+a54 [net-_u31-pad3_ net-_u38-pad3_ ] net-_u41-pad3_ u41
+a55 [net-_u30-pad3_ net-_u37-pad3_ ] net-_u42-pad3_ u42
+a56 [net-_u45-pad3_ net-_u42-pad3_ ] net-_u50-pad3_ u50
+a57 [net-_u44-pad2_ ] [1/s2 ] u49
+a58 [net-_u43-pad2_ ] [4/s1 ] u46
+a59 net-_u41-pad3_ net-_u44-pad2_ u44
+a60 [net-_u40-pad3_ net-_u2-pad2_ ] net-_u45-pad3_ u45
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u7 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u11 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u16 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u14 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u8 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u12 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u22 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u26 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u20 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u23 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u25 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u19 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u6 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u3 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u2 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u4 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u1 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u15 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u28 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u31 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u29 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u30 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u32 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u34 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u33 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u35 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u37 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u36 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u38 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u67 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u68 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u73 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u70 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u69 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u72 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u54 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u60 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u56 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u66 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u63 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u59 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u61 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u57 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u58 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u65 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u62 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u53 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u52 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u48 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u55 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u39 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u40 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u43 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_xor, Ngspice Name: d_xor
+.model u41 d_xor(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u42 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_or, Ngspice Name: d_or
+.model u50 d_or(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u49 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u46 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             d_buffer, Ngspice Name: d_buffer
+.model u44 d_buffer(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+* Schematic Name:                             d_and, Ngspice Name: d_and
+.model u45 d_and(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 ) 
+.tran 0.1e-03 16e-03 0e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(2/b2)
+plot v(12/a4)
+plot v(11/b4)
+plot v(14/a3)
+plot v(15/b3)
+plot v(6/b1)
+plot v(5/a1)
+plot v(7/cin)
+plot v(3/a2)
+plot v(10/s4)
+plot v(9/cout)
+plot v(13/s3)
+plot v(1/s2)
+plot v(4/s1)
+.endc
+.end

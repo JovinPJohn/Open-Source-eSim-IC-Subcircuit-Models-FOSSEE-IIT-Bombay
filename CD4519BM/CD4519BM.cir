@@ -1,0 +1,63 @@
+.title KiCad schematic
+U20 1/Y3 Net-_U20-Pad2_ adc_bridge_1
+U10 1/Y3 plot_v1
+U19 15/X3 Net-_U19-Pad2_ adc_bridge_1
+U9 15/X3 plot_v1
+U17 2/X2 Net-_U17-Pad2_ adc_bridge_1
+U18 3/Y2 Net-_U18-Pad2_ adc_bridge_1
+U7 2/X2 plot_v1
+U8 3/Y2 plot_v1
+v10 1/Y3 GND pulse
+v9 15/X3 GND pulse
+U16 5/Y1 Net-_U16-Pad2_ adc_bridge_1
+U6 5/Y1 plot_v1
+v7 2/X2 GND pulse
+v8 3/Y2 GND pulse
+v6 5/Y1 GND pulse
+U32 Net-_U24-Pad3_ Net-_U25-Pad3_ Net-_U32-Pad3_ d_xnor
+U28 Net-_U17-Pad2_ Net-_U21-Pad2_ Net-_U28-Pad3_ d_nor
+U30 Net-_U19-Pad2_ Net-_U21-Pad2_ Net-_U30-Pad3_ d_nor
+U29 Net-_U18-Pad2_ Net-_U22-Pad2_ Net-_U29-Pad3_ d_nor
+U31 Net-_U20-Pad2_ Net-_U22-Pad2_ Net-_U31-Pad3_ d_nor
+U35 Net-_U30-Pad3_ Net-_U31-Pad3_ Net-_U35-Pad3_ d_xnor
+U34 Net-_U28-Pad3_ Net-_U29-Pad3_ Net-_U34-Pad3_ d_xnor
+U25 Net-_U14-Pad2_ Net-_U22-Pad2_ Net-_U25-Pad3_ d_nor
+U33 Net-_U26-Pad3_ Net-_U27-Pad3_ Net-_U33-Pad3_ d_xnor
+U26 Net-_U15-Pad2_ Net-_U21-Pad2_ Net-_U26-Pad3_ d_nor
+U27 Net-_U16-Pad2_ Net-_U22-Pad2_ Net-_U27-Pad3_ d_nor
+U13 6/X0 Net-_U13-Pad2_ adc_bridge_1
+U2 14/B plot_v1
+U11 9/A Net-_U11-Pad2_ adc_bridge_1
+U12 14/B Net-_U12-Pad2_ adc_bridge_1
+U1 9/A plot_v1
+U3 6/X0 plot_v1
+U23 Net-_U21-Pad2_ Net-_U22-Pad2_ Net-_U23-Pad3_ d_nand
+v5 4/X1 GND pulse
+v4 7/Y0 GND pulse
+U5 4/X1 plot_v1
+U14 7/Y0 Net-_U14-Pad2_ adc_bridge_1
+U15 4/X1 Net-_U15-Pad2_ adc_bridge_1
+U4 7/Y0 plot_v1
+v1 9/A GND pulse
+v2 14/B GND pulse
+v3 6/X0 GND pulse
+U21 Net-_U11-Pad2_ Net-_U21-Pad2_ d_inverter
+U22 Net-_U12-Pad2_ Net-_U22-Pad2_ d_inverter
+U24 Net-_U13-Pad2_ Net-_U21-Pad2_ Net-_U24-Pad3_ d_nor
+U46 Net-_U42-Pad2_ 12/Z3 dac_bridge_1
+U47 Net-_U43-Pad2_ 13/Z3 dac_bridge_1
+U50 12/Z3 plot_v1
+U51 13/Z3 plot_v1
+U39 Net-_U23-Pad3_ Net-_U35-Pad3_ Net-_U39-Pad3_ d_nand
+U43 Net-_U39-Pad3_ Net-_U43-Pad2_ d_inverter
+U38 Net-_U23-Pad3_ Net-_U34-Pad3_ Net-_U38-Pad3_ d_nand
+U42 Net-_U38-Pad3_ Net-_U42-Pad2_ d_inverter
+U49 11/Z1 plot_v1
+U45 Net-_U41-Pad2_ 11/Z1 dac_bridge_1
+U48 10/Z0 plot_v1
+U44 Net-_U40-Pad2_ 10/Z0 dac_bridge_1
+U37 Net-_U23-Pad3_ Net-_U33-Pad3_ Net-_U37-Pad3_ d_nand
+U41 Net-_U37-Pad3_ Net-_U41-Pad2_ d_inverter
+U36 Net-_U23-Pad3_ Net-_U32-Pad3_ Net-_U36-Pad3_ d_nand
+U40 Net-_U36-Pad3_ Net-_U40-Pad2_ d_inverter
+.end

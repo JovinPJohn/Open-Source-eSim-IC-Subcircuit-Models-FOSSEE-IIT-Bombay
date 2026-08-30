@@ -1,0 +1,56 @@
+.title KiCad schematic
+v3 3_C GND pulse
+v2 2_B GND pulse
+v1 1_A GND pulse
+U15 2_B Net-_U15-Pad2_ adc_bridge_1
+U16 3_C Net-_U16-Pad2_ adc_bridge_1
+U3 3_C plot_v1
+U2 2_B plot_v1
+U1 1_A plot_v1
+U14 1_A Net-_U14-Pad2_ adc_bridge_1
+U27 Net-_U15-Pad2_ Net-_U16-Pad2_ Net-_U27-Pad3_ d_and
+U33 Net-_U14-Pad2_ Net-_U27-Pad3_ Net-_U33-Pad3_ d_and
+U36 Net-_U31-Pad3_ Net-_U32-Pad3_ Net-_U36-Pad3_ d_and
+v6 4_D GND pulse
+v7 5_E GND pulse
+U25 6_F Net-_U25-Pad2_ adc_bridge_1
+U8 6_F plot_v1
+U31 Net-_U23-Pad2_ Net-_U24-Pad2_ Net-_U31-Pad3_ d_and
+U32 Net-_U25-Pad2_ Net-_U26-Pad2_ Net-_U32-Pad3_ d_and
+v8 6_F GND pulse
+U6 4_D plot_v1
+U23 4_D Net-_U23-Pad2_ adc_bridge_1
+U24 5_E Net-_U24-Pad2_ adc_bridge_1
+U7 5_E plot_v1
+U4 12_J plot_v1
+U17 12_J Net-_U17-Pad2_ adc_bridge_1
+v4 12_J GND pulse
+v10 11_I GND pulse
+v9 10_H GND pulse
+v13 7_G GND pulse
+U10 11_I plot_v1
+U20 11_I Net-_U20-Pad2_ adc_bridge_1
+U13 7_G plot_v1
+U19 10_H Net-_U19-Pad2_ adc_bridge_1
+U26 7_G Net-_U26-Pad2_ adc_bridge_1
+U9 10_H plot_v1
+U34 Net-_U29-Pad3_ Net-_U28-Pad3_ Net-_U34-Pad3_ d_and
+U29 Net-_U19-Pad2_ Net-_U20-Pad2_ Net-_U29-Pad3_ d_and
+U28 Net-_U17-Pad2_ Net-_U18-Pad2_ Net-_U28-Pad3_ d_and
+U38 Net-_U34-Pad3_ Net-_U38-Pad2_ Net-_U38-Pad3_ d_and
+U37 Net-_U33-Pad3_ Net-_U36-Pad3_ Net-_U37-Pad3_ d_and
+U39 Net-_U37-Pad3_ Net-_U38-Pad3_ Net-_U39-Pad3_ d_and
+U40 Net-_U39-Pad3_ Net-_U40-Pad2_ d_inverter
+U41 Net-_U40-Pad2_ 9_Y dac_bridge_1
+U42 9_Y plot_v1
+v12 15_M GND pulse
+v11 14_L GND pulse
+v5 13_K GND pulse
+U5 13_K plot_v1
+U18 13_K Net-_U18-Pad2_ adc_bridge_1
+U11 14_L plot_v1
+U21 14_L Net-_U21-Pad2_ adc_bridge_1
+U30 Net-_U21-Pad2_ Net-_U22-Pad2_ Net-_U38-Pad2_ d_and
+U12 15_M plot_v1
+U22 15_M Net-_U22-Pad2_ adc_bridge_1
+.end
